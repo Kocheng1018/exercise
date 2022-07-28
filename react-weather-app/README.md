@@ -1,6 +1,25 @@
-# Getting Started with Create React App
+# 天氣搜尋網頁
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduce
+
+藉由第三方 API 搜尋出城市後，用地點來串接天氣第三方 API 顯示當天的天與未來一週天氣
+
+
+> 需要有會員token才可以使用(api.js)
+
+## 使用套件
+
+### `react`
+
+基本react create 項目
+
+###  `react-accessible-accordion`
+
+卡片及下拉畫面小組件
+
+###  `react-select-async-paginate`
+
+input 及 autoComplete 小組件
 
 ## Available Scripts
 
@@ -13,6 +32,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
 
 ### `npm test`
 
@@ -39,32 +59,14 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Reference
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[react-accessible-accordion](https://www.npmjs.com/package/react-accessible-accordion)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[react-select-async-paginate](https://www.npmjs.com/package/react-select-async-paginate)
 
-### Code Splitting
+[第三方城市API](https://rapidapi.com/wirefreethought/api/geodb-cities/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[第三方天氣API](https://openweathermap.org/current)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[參考影片](https://www.youtube.com/watch?v=Reny0cTTv24&ab_channel=freeCodeCamp.org)
