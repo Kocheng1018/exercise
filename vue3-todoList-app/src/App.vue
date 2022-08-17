@@ -15,7 +15,6 @@ const addTodo = () => {
   if(input_content.value.trim() === "" || input_category.value === null) {
     return
   }
-
   todos.value.push({
     content: input_content.value,
     category: input_category.value,
